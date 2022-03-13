@@ -1,7 +1,7 @@
 <div class = "side_bar">
     <div class = "side_top">
       <div class="top-name">
-        <a href="#">MASAKI</a>
+        <%= link_to current_user.name, edit_user_path(current_user) %>
      </div>
       <div class = "button">
          <a href="#">チャットを作成すぅの</a>
