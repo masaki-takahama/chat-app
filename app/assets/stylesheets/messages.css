@@ -1,0 +1,142 @@
+.wrapper{
+  display: flex;
+}
+
+
+.side_bar{
+  width: 300px;
+  height: 100vh;
+}
+
+.side_top{
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+    .top-name a{
+      color: #fafafa;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .button a{
+      padding: 14px;
+      font-size: 10px;
+      color: deepskyblue;
+      border: 1px solid lightblue;
+      text-decoration: none;
+
+    }
+  .side_bottom{
+    background-color: #2f3e51;
+    height: calc(100vh - 100px);
+    padding: 0 20px;
+    overflow: scroll;
+  }
+    .room{
+      padding: 20px 0px 40px;
+    }
+    .room a{
+      color: white;
+      text-decoration: none;
+      }
+
+
+.main_chat{
+  width: calc(100vw - 300px);
+  background-color: #fff;
+}
+.main_top{
+  height: 100px;
+  background-color: #fff;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  }
+    .chat_header{
+      font-size: 24px;
+      color: #333;
+      margin-top: 36px;
+    }
+    .exit{
+      margin-top: 40px;
+    }
+    .exit a{
+      border: 1px solid darkred;
+      color: darkred;
+      padding: 20px;
+      text-decoration: none;
+    }
+
+    /* メインの真ん中部分 */
+  .main_middle{
+    background-color: #fafafa;
+    height: calc(100vh - 190px);
+    padding: 46px 40px 0;
+    overflow: scroll;
+  }
+    .message{
+     margin-bottom: 40px ;
+    }
+      .name_date{
+        margin: 10px 0;
+        display: flex;
+        
+      }
+        .name{
+          font-size: 16px;
+          color: #434a54;
+          margin-right: 10px;
+        }
+        .date{
+          color: #999;
+          font-size: 12px;
+        }
+      .text{
+        font-size: 14px;
+        color: #434a54;
+      }
+      /* メインの下部分 */
+
+  .main_bottom{
+    height: 90px;
+    background-color: #ddd;
+    padding: 20px 40px;
+    display: flex;
+  }
+    .form{
+      width: 100%;
+      background-color: white;
+      display: flex;
+    }
+    .form_image{
+        font-size: 12px;
+        background-color: lightblue;
+        color: white;
+        padding: 12px;
+        width: 60px;
+        margin: 5px 10px;
+        text-align: center;
+    }
+    .input{
+      padding: 0 10px;
+      width: 100%;
+      background-color: white;
+      height: 50px;
+      border: none;
+
+    }
+    .submit{
+      padding: 0 20px;
+      background-color: #38aef0;
+      color: white;
+      font-size: 16px;
+      border: none;
+      margin-left: 15px;
+      height: 50px;
+    }
+    .hidden{
+      display: none;
+    }
