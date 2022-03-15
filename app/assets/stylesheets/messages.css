@@ -100,18 +100,18 @@
       }
       /* メインの下部分 */
 
-  .main_bottom{
+  .form{
     height: 90px;
     background-color: #ddd;
     padding: 20px 40px;
     display: flex;
   }
-    .form{
+    .form-input{
       width: 100%;
       background-color: white;
       display: flex;
     }
-    .form_image{
+    .form-image{
         font-size: 12px;
         background-color: lightblue;
         color: white;
@@ -120,7 +120,7 @@
         margin: 5px 10px;
         text-align: center;
     }
-    .input{
+    .form-message{
       padding: 0 10px;
       width: 100%;
       background-color: white;
@@ -128,7 +128,7 @@
       border: none;
 
     }
-    .submit{
+    .form-submit{
       padding: 0 20px;
       background-color: #38aef0;
       color: white;
